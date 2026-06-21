@@ -29,3 +29,17 @@ Si bien entiendo el proceso de actualizacion de pesos, no me termina de quedar c
 ### Qué te gustaría aprender hoy?
 Seria interesante poder entender la funcion de sample, en que se basa para tomar una muestra de un a distrbucion?
 Por otro lado estaria bueno ver, con un programa sencillo, esta actualizacion de likehood durante la ejecucion de un programa.
+
+## CLASE-3
+### Qué fue lo que más te llamó la atención del material?
+Me parece util e interesante la representacion grafica. Entiendo que es algo que no subre y el libro lo utiliza dado que un momento esa idea fue el pilar para esta reama, pero me fue practico para entender los conceptos de la seccion 3.2. No se si es para esta seccion, pero me llama la atencion como coexisten estos metodos tan sofisticados (likhood wrighting y MH) en el mismo ecosistema del lenguaje. Hasta la seccion anterior creo que entendia mejor como se podian resolver los problemas, la incorporacion de MH me lleva tener mas interes en lo que hay debajo de estos sistemas. 
+Me parece, a su vez, una buena forma de optimizar, la reutilizacion de la funcion EVAL para ambos metodos
+
+### Qué fue lo que menos entendiste del material?
+En la ecuacion 3.11, por que en P(Y|X) no se hace referencia a las variables X? Debido a que estamos en el caso de todo lo observado?
+En la ecucion 3.13, Al no tener data observdada, la expresion por la que se reemplaza es solo.
+La funcion factor premite introducir el reemplaza de la funcion de likehood por una funcion arbitraria ante la falta de datos observados?
+No se si termino de entenderlo lo propuesto en la unidad 4.2, en comparacion con metropolis hasting: Ambos metodos tienen el mismo objetivo pero ya no utiliza muestras del prior? A su vez en este metodo se toma tanto la densidad de del sample como de la observacion?
+
+### Qué te gustaría aprender hoy?
+Seria interesante pode introducir ejemplo de estas distrbuciones donde no se utiliza datos observados. Tambien considero importante incluir algun ejemplo sobre MH
